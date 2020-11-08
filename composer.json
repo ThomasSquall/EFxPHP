@@ -1,0 +1,22 @@
+{
+    "name": "thomas-squall/efxphp",
+    "description": "MySQL Entity Framework for PHP",
+    "version": "0.0.0",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thomas Cocchiara",
+            "email": "thomas.cocchiara@gmail.com"
+        }
+    ],
+    "require": {
+        "thomas-squall/php-magic-annotations": "^0.9.7",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "EFxPHP\\": "src"
+        }
+    }
+}
